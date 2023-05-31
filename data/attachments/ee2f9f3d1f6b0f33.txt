@@ -1,0 +1,4 @@
+Instance: old_platform, Column: ['facilities_id'], Missing Column in Database table : checklist_default_users
+Instance: old_platform, Column: ['is_global'], Missing Column in Database table : checklists
+Instance: new_platform, Column: ['facilities_id'], Missing Column in Database table : checklists
+Instance: old_platform, Column: ['ended_by'], Missing Column in Database table : task_executions

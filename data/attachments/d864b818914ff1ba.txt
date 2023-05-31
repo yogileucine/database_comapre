@@ -1,0 +1,15 @@
+Database: old_platform, Table Name : parameter_media_mapping
+Database: old_platform, Table Name : checklist_facility_mapping
+Database: new_platform, Table Name : temp_activity_values
+Database: old_platform, Table Name : temp_parameter_values
+Database: new_platform, Table Name : temp_activity_value_media_mapping
+Database: old_platform, Table Name : temp_parameter_value_media_mapping
+Database: new_platform, Table Name : activities
+Database: old_platform, Table Name : parameters
+Database: new_platform, Table Name : activity_values
+Database: new_platform, Table Name : activity_value_media_mapping
+Database: new_platform, Table Name : activity_value_approvals
+Database: old_platform, Table Name : parameter_value_approvals
+Database: old_platform, Table Name : parameter_value_media_mapping
+Database: new_platform, Table Name : activity_media_mapping
+Database: old_platform, Table Name : parameter_values
