@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Dec 10 11:49:50 IST 2024","Tue Dec 10 12:01:10 IST 2024","680226","tests.database","test_compare_db","TestDataBaseConnection","","","test_compare_database",""

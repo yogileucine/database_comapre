@@ -1,0 +1,1 @@
+From Table: 'interlocks', Column 'target_entity_id' has different datatypes: Database 1: character varying,  Database 2: bigint

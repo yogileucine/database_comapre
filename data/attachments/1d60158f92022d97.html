@@ -1,0 +1,1482 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>author</th>
+      <th>filename</th>
+      <th>dateexecuted</th>
+      <th>orderexecuted</th>
+      <th>exectype</th>
+      <th>md5sum</th>
+      <th>description</th>
+      <th>comments</th>
+      <th>tag</th>
+      <th>liquibase</th>
+      <th>contexts</th>
+      <th>labels</th>
+      <th>deployment_id</th>
+      <th>database</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>383</th>
+      <td>202404091847-seed-schema-1</td>
+      <td>mokshesh</td>
+      <td>db/changelog/common/202404251425-seed-schema.postgresql.sql</td>
+      <td>2024-08-26 13:49:39.058770</td>
+      <td>383</td>
+      <td>EXECUTED</td>
+      <td>8:51a521305ce72658e4bf0093f3f9cc0d</td>
+      <td>sql</td>
+      <td>added column client_epoch for ensuring only recent client request is processed for parameter execution</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>4680178763</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>384</th>
+      <td>202404091847-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202404251425-seed-schema.postgresql.sql</td>
+      <td>2024-08-26 13:49:39.121316</td>
+      <td>384</td>
+      <td>EXECUTED</td>
+      <td>8:0da34037e03306a153a6f10c8d3d4691</td>
+      <td>sql</td>
+      <td>added column version to make sure during concurrent request older transactions dont get commited</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>4680178763</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>385</th>
+      <td>202403061130-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403061130-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.129701</td>
+      <td>386</td>
+      <td>EXECUTED</td>
+      <td>8:5ec31b34aa7cda1227401b9b38241d9e</td>
+      <td>sql</td>
+      <td>added column color_code to checklists</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>386</th>
+      <td>202403102018-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202403102018-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.146391</td>
+      <td>387</td>
+      <td>EXECUTED</td>
+      <td>8:9ad7c2f9aeb2d817001412947be6c202</td>
+      <td>sql</td>
+      <td>added column isTaskLocked to tasks table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>387</th>
+      <td>202403111109-seed-data</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202403111109-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.164217</td>
+      <td>388</td>
+      <td>EXECUTED</td>
+      <td>8:d9f4125222e834706e9c50336168808c</td>
+      <td>sql</td>
+      <td>least count data migration</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>388</th>
+      <td>202403131736-seed-schema</td>
+      <td>peesa</td>
+      <td>db/changelog/common/202403131736-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.180305</td>
+      <td>389</td>
+      <td>EXECUTED</td>
+      <td>8:1d529c5ffecdbcb3549f449d6589fe27</td>
+      <td>sql</td>
+      <td>add task dependencies schema</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>389</th>
+      <td>202402261136-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202402261136-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.197473</td>
+      <td>390</td>
+      <td>EXECUTED</td>
+      <td>8:ed578b273eb4d2ffd390da2af7d711f2</td>
+      <td>sql</td>
+      <td>create user group table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>390</th>
+      <td>202402261136-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202402261136-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.205327</td>
+      <td>391</td>
+      <td>EXECUTED</td>
+      <td>8:74b548d67fbca3d9156db61042de196d</td>
+      <td>sql</td>
+      <td>add unique constraint to user group table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>391</th>
+      <td>202402261136-seed-schema-3</td>
+      <td>siba</td>
+      <td>db/changelog/common/202402261136-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.216983</td>
+      <td>392</td>
+      <td>EXECUTED</td>
+      <td>8:4cc0c56de2b146065a26e225f82ee305</td>
+      <td>sql</td>
+      <td>create user group members table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>392</th>
+      <td>202402261136-seed-schema-4</td>
+      <td>siba</td>
+      <td>db/changelog/common/202402261136-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.226088</td>
+      <td>393</td>
+      <td>EXECUTED</td>
+      <td>8:55cb95c049810e346dd9a812dcde489d</td>
+      <td>sql</td>
+      <td>drop old primary key constraint</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>393</th>
+      <td>202402261136-seed-schema-5</td>
+      <td>siba</td>
+      <td>db/changelog/common/202402261136-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.234671</td>
+      <td>394</td>
+      <td>EXECUTED</td>
+      <td>8:f28475e617614150e1653431b0d41372</td>
+      <td>sql</td>
+      <td>drop not null constraint on users_id of task_execution_user_mapping</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>394</th>
+      <td>202402261136-seed-schema-6</td>
+      <td>siba</td>
+      <td>db/changelog/common/202402261136-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.241902</td>
+      <td>395</td>
+      <td>EXECUTED</td>
+      <td>8:9e7271edb134f142db44aa3f5b9affa7</td>
+      <td>sql</td>
+      <td>create user group column</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>395</th>
+      <td>202402261136-seed-schema-7</td>
+      <td>siba</td>
+      <td>db/changelog/common/202402261136-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.249457</td>
+      <td>396</td>
+      <td>EXECUTED</td>
+      <td>8:2d6bdea9d87e890de127f2c75efca437</td>
+      <td>sql</td>
+      <td>drop unique constraint task_execution_user_mapping</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>396</th>
+      <td>202402261136-seed-schema-8</td>
+      <td>siba</td>
+      <td>db/changelog/common/202402261136-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:56:17.263821</td>
+      <td>397</td>
+      <td>EXECUTED</td>
+      <td>8:642a841363871d9321a2022f8ac2eb94</td>
+      <td>sql</td>
+      <td>create trained users table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>397</th>
+      <td>TaskExecutionUserMappingIdGeneration202403042316</td>
+      <td>siba</td>
+      <td>db/changelog/changelog-platform-prod-master.xml</td>
+      <td>2024-12-09 11:57:15.332076</td>
+      <td>398</td>
+      <td>EXECUTED</td>
+      <td>8:0e7da38a74731357a51461d91eeb42a5</td>
+      <td>customChange</td>
+      <td></td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>398</th>
+      <td>TrainedUsersMigration202403092317</td>
+      <td>siba</td>
+      <td>db/changelog/changelog-platform-prod-master.xml</td>
+      <td>2024-12-09 11:57:15.740166</td>
+      <td>399</td>
+      <td>EXECUTED</td>
+      <td>8:322bd8fb2aa7d74d498b7edec72cda96</td>
+      <td>customChange</td>
+      <td></td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>399</th>
+      <td>202403110104-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403110104-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.749513</td>
+      <td>400</td>
+      <td>EXECUTED</td>
+      <td>8:83f5f15a4d3b318674f9c8e7ba87cee8</td>
+      <td>sql</td>
+      <td>renaming the table checklist_default_users to trained_user_tasks_mapping</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>400</th>
+      <td>202403110104-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403110104-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.757838</td>
+      <td>401</td>
+      <td>EXECUTED</td>
+      <td>8:aef967f06055d56cf07f7dea185470b5</td>
+      <td>sql</td>
+      <td>dropping irrelevant columns from the table trained_user_tasks_mapping</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>401</th>
+      <td>202403110104-seed-schema-3</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403110104-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.767269</td>
+      <td>402</td>
+      <td>EXECUTED</td>
+      <td>8:45e893b29aa1b2ccdd5434997d7b4bf0</td>
+      <td>sql</td>
+      <td>adding audit related columns to the table trained_user_tasks_mapping</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>402</th>
+      <td>202403110104-seed-schema-4</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403110104-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.786013</td>
+      <td>403</td>
+      <td>EXECUTED</td>
+      <td>8:58718528eb19dceaed14a537391086cb</td>
+      <td>sql</td>
+      <td>create table user group audits table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>403</th>
+      <td>202403191734-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403191734-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.800318</td>
+      <td>404</td>
+      <td>EXECUTED</td>
+      <td>8:9112fd0d08c14d26c82246b0bea38e2d</td>
+      <td>sql</td>
+      <td>create process level permissions</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>404</th>
+      <td>202403191734-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403191734-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.812408</td>
+      <td>405</td>
+      <td>EXECUTED</td>
+      <td>8:4379b0a97358245fe0908b563a97f3ed</td>
+      <td>sql</td>
+      <td>map permissiona to trained_users</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>405</th>
+      <td>202403191734-seed-schema-3</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403191734-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.824623</td>
+      <td>406</td>
+      <td>EXECUTED</td>
+      <td>8:8d237c06d28242f8d96156caa984672f</td>
+      <td>sql</td>
+      <td>add unique constraint to process_permissions_trained_users</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>406</th>
+      <td>202403151629-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202403151629-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.843057</td>
+      <td>407</td>
+      <td>EXECUTED</td>
+      <td>8:78f1e50f1401db59ad60468d8938ea0d</td>
+      <td>sql</td>
+      <td>create corrections table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>407</th>
+      <td>202403151635-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202403151635-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.857976</td>
+      <td>408</td>
+      <td>EXECUTED</td>
+      <td>8:7027ed8ae0c9352659a857f7a1701bc3</td>
+      <td>sql</td>
+      <td>create correctors table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>408</th>
+      <td>202403151635-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202403151645-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.870854</td>
+      <td>409</td>
+      <td>EXECUTED</td>
+      <td>8:933512a6d7eac375a2af3465590cf08d</td>
+      <td>sql</td>
+      <td>create reviewers table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>409</th>
+      <td>202403151635-seed-schema-2</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202403151645-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.878095</td>
+      <td>410</td>
+      <td>EXECUTED</td>
+      <td>8:7298d18a784e4ceaf77f9f317f12c540</td>
+      <td>sql</td>
+      <td>add new column has_corrections to parameter_values</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>410</th>
+      <td>202403211317-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403211317-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.891824</td>
+      <td>411</td>
+      <td>EXECUTED</td>
+      <td>8:856a64861b70c1d05bc59e9118c04c71</td>
+      <td>sql</td>
+      <td>create the schema for the task executor lock table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>411</th>
+      <td>202403211317-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403211317-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.903166</td>
+      <td>412</td>
+      <td>EXECUTED</td>
+      <td>8:e647c12bf6edcdc217b75957e288d7cc</td>
+      <td>sql</td>
+      <td>add unique constraint to task executor lock table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>412</th>
+      <td>202403211317-seed-schema-3</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403211317-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.912655</td>
+      <td>413</td>
+      <td>EXECUTED</td>
+      <td>8:d083796cedfb432f5ca364101ee6cf89</td>
+      <td>sql</td>
+      <td>add column has lock to tasks table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>413</th>
+      <td>202403310014-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403310014-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.928147</td>
+      <td>414</td>
+      <td>EXECUTED</td>
+      <td>8:7c1a6fe36490831eb8df44ba3803e569</td>
+      <td>sql</td>
+      <td>add trained users index</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>414</th>
+      <td>202403310014-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202403310014-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.946159</td>
+      <td>415</td>
+      <td>EXECUTED</td>
+      <td>8:cd08722ae47169f45cd828352632b040</td>
+      <td>sql</td>
+      <td>add trained user task mapping index</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>415</th>
+      <td>202404021133-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202404021133-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:15.958373</td>
+      <td>416</td>
+      <td>EXECUTED</td>
+      <td>8:3900faec213719582d7344fc9788def1</td>
+      <td>sql</td>
+      <td>create corrections media mapping table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>416</th>
+      <td>202404091154-seed-schema-1</td>
+      <td>mokshesh</td>
+      <td>db/changelog/common/202404091154-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:16.181526</td>
+      <td>417</td>
+      <td>EXECUTED</td>
+      <td>8:eef9b9dda73c67b48638698680af876d</td>
+      <td>sql</td>
+      <td>merge jaas into dwi</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>417</th>
+      <td>202404140229-seed-data-1</td>
+      <td>mokshesh</td>
+      <td>db/changelog/common/202404140229-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:16.268573</td>
+      <td>418</td>
+      <td>EXECUTED</td>
+      <td>8:163b8c92b8015594c1fa6b2219e4f7e9</td>
+      <td>sql</td>
+      <td>merge jaas email templates into dwi email templates</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>418</th>
+      <td>202406101154-seed-schema</td>
+      <td>siba</td>
+      <td>db/changelog/common/202404030000-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:16.283219</td>
+      <td>419</td>
+      <td>EXECUTED</td>
+      <td>8:9ef626206dcb429904b09ff50fc66d3a</td>
+      <td>sql</td>
+      <td>added column time_zone to facilities table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>419</th>
+      <td>MergeJaaS202404032134</td>
+      <td>mokshesh</td>
+      <td>db/changelog/changelog-platform-prod-master.xml</td>
+      <td>2024-12-09 11:57:19.754513</td>
+      <td>420</td>
+      <td>EXECUTED</td>
+      <td>8:24589aba114a9229c89638aa0c94ef63</td>
+      <td>customChange</td>
+      <td>merging jaas database into dwi</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>420</th>
+      <td>202404191451-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202404191451-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.770913</td>
+      <td>421</td>
+      <td>EXECUTED</td>
+      <td>8:c015cffc1723984a44cc6c0a75ab76bd</td>
+      <td>sql</td>
+      <td>add unique index to trained_user_tasks_mapping</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>421</th>
+      <td>202404221317-seed-schema-data.postgresql.sql</td>
+      <td>peesa</td>
+      <td>db/changelog/common/202404221317-seed-schema-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.777787</td>
+      <td>422</td>
+      <td>EXECUTED</td>
+      <td>8:76fffe89b1749a6975539af82389b931</td>
+      <td>sql</td>
+      <td></td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>422</th>
+      <td>202404230415-seed-data-1</td>
+      <td>peesa</td>
+      <td>db/changelog/common/202404230415-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.820686</td>
+      <td>423</td>
+      <td>EXECUTED</td>
+      <td>8:a01962cf31b6df6fbec18996e4bcd7c0</td>
+      <td>sql</td>
+      <td>add email notifications templates for 4.7.0</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>423</th>
+      <td>202404241250-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202404241246-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.838496</td>
+      <td>424</td>
+      <td>EXECUTED</td>
+      <td>8:5a23d641e6e47ea91ec8ad920da9d53f</td>
+      <td>sql</td>
+      <td>create exceptions table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>424</th>
+      <td>202404241251-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202404241251-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.851985</td>
+      <td>425</td>
+      <td>EXECUTED</td>
+      <td>8:2f1bf4903d442c782a0689564e948745</td>
+      <td>sql</td>
+      <td>create exception reviewers table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>425</th>
+      <td>202403151635-seed-schema-2</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202404241251-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.861046</td>
+      <td>426</td>
+      <td>EXECUTED</td>
+      <td>8:03c030d564d97ce635f985264911f230</td>
+      <td>sql</td>
+      <td>add new column has_exceptions to parameter_values</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>426</th>
+      <td>202405121300-seed-data-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202405121300-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.887273</td>
+      <td>427</td>
+      <td>EXECUTED</td>
+      <td>8:e972433293de4b000657fc54f9df74b4</td>
+      <td>sql</td>
+      <td>delete all duplicate entries of timers where reason is TASK_COMPLETED</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>427</th>
+      <td>202405081347-seed-data-1</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202405081347-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.902626</td>
+      <td>428</td>
+      <td>EXECUTED</td>
+      <td>8:c1203bcbe9ebd5ff011067b43721cf1d</td>
+      <td>sql</td>
+      <td>insert into email templates exception request</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>428</th>
+      <td>202405151331-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202405151331-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.911569</td>
+      <td>429</td>
+      <td>EXECUTED</td>
+      <td>8:f121026b95a88a307efede1df9955b9a</td>
+      <td>sql</td>
+      <td>added column previous_execution_state in corrections table to keep track of parameterValue states at initiation</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>429</th>
+      <td>202405081621-seed-data-1</td>
+      <td>sathvik</td>
+      <td>db/changelog/common/202405081621-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.937709</td>
+      <td>430</td>
+      <td>EXECUTED</td>
+      <td>8:467c1025bf562c55613eb8a998354061</td>
+      <td>sql</td>
+      <td></td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>430</th>
+      <td>202405151704-seed-data-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202405151704-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.947068</td>
+      <td>431</td>
+      <td>EXECUTED</td>
+      <td>8:9bdb865930db3920b4e7b1882161dda1</td>
+      <td>sql</td>
+      <td>send ready task email to task assignee if all prerequisite tasks are completed of a dependant task</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>431</th>
+      <td>202405201437-seed-data</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202405201437-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.956905</td>
+      <td>432</td>
+      <td>EXECUTED</td>
+      <td>8:8b147409b87934787f12fb96728d3e88</td>
+      <td>sql</td>
+      <td>added column previous_state in exceptions table to keep track of parameterValue states at initiation</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>432</th>
+      <td>202405201118-seed-data-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202405201118-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:19.978622</td>
+      <td>433</td>
+      <td>EXECUTED</td>
+      <td>8:78c721b9c55a7a8ce04d8788195e54aa</td>
+      <td>sql</td>
+      <td>update enable_exception_approval to true for should be parameters when the parameter is not started state</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>433</th>
+      <td>ParameterApprovalMigration202405231628</td>
+      <td>siba</td>
+      <td>db/changelog/changelog-platform-prod-master.xml</td>
+      <td>2024-12-09 11:57:20.273669</td>
+      <td>434</td>
+      <td>EXECUTED</td>
+      <td>8:bb4ad7589fbeb50505e4cd801a556c9e</td>
+      <td>customChange</td>
+      <td>migrating should be parameter data</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>434</th>
+      <td>202405291604-seed-data</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202405291604-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.325723</td>
+      <td>435</td>
+      <td>EXECUTED</td>
+      <td>8:70d9684b0fd76c759b4760847415be9d</td>
+      <td>sql</td>
+      <td>added column exception_approval_type in parameters table and removed enable_exception_approval</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>435</th>
+      <td>202405291604-seed-data-2</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202405291604-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.333371</td>
+      <td>436</td>
+      <td>EXECUTED</td>
+      <td>8:9bda5baa14fe57bc34176bfec0cf32a9</td>
+      <td>sql</td>
+      <td></td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>436</th>
+      <td>202406031721-seed-data</td>
+      <td>peesa</td>
+      <td>db/changelog/common/202406031721-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.346029</td>
+      <td>437</td>
+      <td>EXECUTED</td>
+      <td>8:bbebdb051b2afd0805200428f340d19c</td>
+      <td>sql</td>
+      <td>Remove label from all calculation type parameters data</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>437</th>
+      <td>202406061919-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202406061919-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.366396</td>
+      <td>438</td>
+      <td>EXECUTED</td>
+      <td>8:ae105837c977524c25dce7cc04a7677f</td>
+      <td>sql</td>
+      <td>drop not null constraints on task_recurrences table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>438</th>
+      <td>202406061919-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202406061919-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.382932</td>
+      <td>439</td>
+      <td>EXECUTED</td>
+      <td>8:7e830203cac753d2b0bf2d2a786f0177</td>
+      <td>sql</td>
+      <td>added task recurrence tolerance columns</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>439</th>
+      <td>202406181906-seed-schema-1</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202406181906-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.410009</td>
+      <td>440</td>
+      <td>EXECUTED</td>
+      <td>8:1fd5d90b0b539ad2a3fde817d690a5ab</td>
+      <td>sql</td>
+      <td>drop the column and set default for the columns</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>440</th>
+      <td>202406181906-seed-schema-1</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202406191600-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.433075</td>
+      <td>441</td>
+      <td>EXECUTED</td>
+      <td>8:ea3fea7cd80de36468c819652f3b0222</td>
+      <td>sql</td>
+      <td>Drop the existing foreign key constraint and Add the new foreign key constraint with ON DELETE CASCADE</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>441</th>
+      <td>202406261700-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202406261700-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.448023</td>
+      <td>442</td>
+      <td>EXECUTED</td>
+      <td>8:b8395b1e588cd42cc9f951ef562d86ab</td>
+      <td>sql</td>
+      <td>changed id for email template of Parameter Exception Requested</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>442</th>
+      <td>202407081300-seed-schema</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202407081300-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.464764</td>
+      <td>443</td>
+      <td>EXECUTED</td>
+      <td>8:d84d1beea649d56bee7afd95f6746587</td>
+      <td>sql</td>
+      <td>Updated Checklist Audits table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>443</th>
+      <td>202407091315-seed-schema</td>
+      <td>siba</td>
+      <td>db/changelog/common/202407091315-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.477611</td>
+      <td>444</td>
+      <td>EXECUTED</td>
+      <td>8:6db9c2473007529d95e2b3cb9cae49f5</td>
+      <td>sql</td>
+      <td>added job annotation 'code' column</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>444</th>
+      <td>202407162125-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202407162125-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.489252</td>
+      <td>445</td>
+      <td>EXECUTED</td>
+      <td>8:e9d507f0f27b78c430c4699af5650329</td>
+      <td>sql</td>
+      <td>add has bulk verification column to task table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>445</th>
+      <td>202407162125-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202407162125-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:20.504703</td>
+      <td>446</td>
+      <td>EXECUTED</td>
+      <td>8:2e0081b2d4a584d53fcaf963f949dbfa</td>
+      <td>sql</td>
+      <td>add is bulk verification column to task table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>446</th>
+      <td>TaskTimerMigration</td>
+      <td>peesa</td>
+      <td>db/changelog/changelog-platform-prod-master.xml</td>
+      <td>2024-12-09 11:57:22.489181</td>
+      <td>447</td>
+      <td>EXECUTED</td>
+      <td>8:ff08c1ea286b73048b55c38c3b570b03</td>
+      <td>customChange</td>
+      <td></td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>447</th>
+      <td>202407101723-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202407101723-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.538424</td>
+      <td>448</td>
+      <td>EXECUTED</td>
+      <td>8:681cab141b77dbdf5cbf95464d1b8856</td>
+      <td>sql</td>
+      <td>Add indexes to parameter_verification and correction tables</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>448</th>
+      <td>202408161319-seed-data-1</td>
+      <td>peesa</td>
+      <td>db/changelog/common/202408161319-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.550584</td>
+      <td>449</td>
+      <td>EXECUTED</td>
+      <td>8:71e3cf9bab5c31c51c7b5b8e8082a10d</td>
+      <td>sql</td>
+      <td>remove calculation verification types and remove deleted trained users</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>449</th>
+      <td>202408201717-seed-data-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202408201717-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.560504</td>
+      <td>450</td>
+      <td>EXECUTED</td>
+      <td>8:0d00698a33f70df9fd2169c43e0844e0</td>
+      <td>sql</td>
+      <td>fix task execution timers completed with exception when task is paused</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>450</th>
+      <td>202407260221-seed-schema</td>
+      <td>peesa</td>
+      <td>db/changelog/common/202407260221-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.569388</td>
+      <td>451</td>
+      <td>EXECUTED</td>
+      <td>8:88027e28fafb1d89d240faeed998873a</td>
+      <td>sql</td>
+      <td>add exception management for resource type parameters</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>451</th>
+      <td>202409131205-seed-schema</td>
+      <td>kousik</td>
+      <td>db/changelog/common/202409131205-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.577657</td>
+      <td>452</td>
+      <td>EXECUTED</td>
+      <td>8:fb7277e9293b314d1bbdade78d3445a5</td>
+      <td>sql</td>
+      <td>Added a new foreign key constraint with ON DELETE CASCADE</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>452</th>
+      <td>202408291700-seed-data-1</td>
+      <td>kousik - abhishek</td>
+      <td>db/changelog/common/202408291700-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.591114</td>
+      <td>453</td>
+      <td>EXECUTED</td>
+      <td>8:1b36dd38e856b4e02aad513dd4649ea4</td>
+      <td>sql</td>
+      <td>Updated data column in Parameters table , added 'selector' field in propertyValidations</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>453</th>
+      <td>202409131555-seed-schema-1</td>
+      <td>kousik</td>
+      <td>db/changelog/common/202409131555-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.608802</td>
+      <td>454</td>
+      <td>EXECUTED</td>
+      <td>8:ca4ed464c5497a368e8505f6708a44b2</td>
+      <td>sql</td>
+      <td>altered tasks table  added has_interlocks</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>454</th>
+      <td>202409141508-seed-data</td>
+      <td>kousik</td>
+      <td>db/changelog/common/202409141508-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.623231</td>
+      <td>455</td>
+      <td>EXECUTED</td>
+      <td>8:ac0b4b6f7f232311a0644490226a622e</td>
+      <td>sql</td>
+      <td>updated offset for old setProperty automations in action details</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>455</th>
+      <td>202409161449-seed-schema</td>
+      <td>kousik</td>
+      <td>db/changelog/common/202409161449-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.633345</td>
+      <td>456</td>
+      <td>EXECUTED</td>
+      <td>8:75efc8fb65f28505f528dd3eaff75635</td>
+      <td>sql</td>
+      <td>updated datatype of checklist name from VARCHAR(255) to Text</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>456</th>
+      <td>2024091433-seed-schema-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202409151433-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.643967</td>
+      <td>457</td>
+      <td>EXECUTED</td>
+      <td>8:305536fb167c483d3ce0ac1a8134ba89</td>
+      <td>sql</td>
+      <td>add time zone info in facility table</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>457</th>
+      <td>202410141734-seed-data</td>
+      <td>abhishek</td>
+      <td>db/changelog/common/202410141734-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.654732</td>
+      <td>458</td>
+      <td>EXECUTED</td>
+      <td>8:7641fec0b54e58b916a1465739ba5e65</td>
+      <td>sql</td>
+      <td>"leastCount" migrated FROM {"value":"", "selector":"CONSTANT"} TO "leastCount" : null</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>458</th>
+      <td>202410071441-seed-data</td>
+      <td>kousik</td>
+      <td>db/changelog/common/202410071441-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.663678</td>
+      <td>459</td>
+      <td>EXECUTED</td>
+      <td>8:146d4b664771195d7ff88036ab8a600b</td>
+      <td>sql</td>
+      <td>update rules for archived parameters</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>459</th>
+      <td>202409172122-seed-data-1</td>
+      <td>siba</td>
+      <td>db/changelog/common/202409172122-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.706009</td>
+      <td>460</td>
+      <td>EXECUTED</td>
+      <td>8:7935876a9aa4f277a47df8778b4e6709</td>
+      <td>sql</td>
+      <td>convert jsonb object of validations into array and add exceptionApprovalType</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>460</th>
+      <td>202410141734-seed-data</td>
+      <td>nishant</td>
+      <td>db/changelog/common/202411141620-seed-data.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.719585</td>
+      <td>461</td>
+      <td>EXECUTED</td>
+      <td>8:0fe518531b105dad233656e921eb26c2</td>
+      <td>sql</td>
+      <td>"data and date time validations" migration</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>461</th>
+      <td>202411270130-seed-schema</td>
+      <td>kousik</td>
+      <td>db/changelog/common/202411270130-seed-schema.postgresql.sql</td>
+      <td>2024-12-09 11:57:22.727670</td>
+      <td>462</td>
+      <td>EXECUTED</td>
+      <td>8:7d9c841c1e2824bd2a6743c2f58b3251</td>
+      <td>sql</td>
+      <td>"alter parameterValue table add new key"</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3745376832</td>
+      <td>amneal_migrated_dwi</td>
+    </tr>
+    <tr>
+      <th>462</th>
+      <td>202404091847-seed-schema-1</td>
+      <td>mokshesh</td>
+      <td>db/changelog/common/202404251425-seed-schema.postgresql.sql</td>
+      <td>2024-08-26 13:49:39.058770</td>
+      <td>383</td>
+      <td>EXECUTED</td>
+      <td>8:a97914c242366d9b0d9d36e498fce392</td>
+      <td>sql</td>
+      <td>added column client_epoch for ensuring only recent client request is processed for parameter execution</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>4680178763</td>
+      <td>amneal_dwi</td>
+    </tr>
+    <tr>
+      <th>463</th>
+      <td>202404091847-seed-schema-2</td>
+      <td>siba</td>
+      <td>db/changelog/common/202404251425-seed-schema.postgresql.sql</td>
+      <td>2024-08-26 13:49:39.121316</td>
+      <td>384</td>
+      <td>EXECUTED</td>
+      <td>8:7242bf0795ec852cafe7f8e6ff059c5c</td>
+      <td>sql</td>
+      <td>added column version to make sure during concurrent request older transactions dont get commited</td>
+      <td>None</td>
+      <td>4.14.0</td>
+      <td>None</td>
+      <td>None</td>
+      <td>4680178763</td>
+      <td>amneal_dwi</td>
+    </tr>
+  </tbody>
+</table>

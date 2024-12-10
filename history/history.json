@@ -1,0 +1,1 @@
+{"1b1a441f4a583b1c3e8ee2d77b68ba9e":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"c7ddbc90f85686d8","status":"failed","statusDetails":"AssertionError: amneal_dwi & amneal_migrated_dwi Database tables details are not matching\nassert False","time":{"start":1733811590633,"stop":1733812270859,"duration":680226}}]}}

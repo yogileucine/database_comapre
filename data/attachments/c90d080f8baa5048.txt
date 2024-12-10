@@ -1,0 +1,24 @@
+Instance: amneal_dwi, Column: ['created_by' 'date_format' 'date_time_format' 'modified_by' 'time_format'], Missing Column in Database table : facilities
+Instance: amneal_dwi, Column: ['stages_id' 'tasks_id' 'triggered_for'], Missing Column in Database table : checklist_audits
+Instance: amneal_dwi, Column: ['has_active_exception' 'has_corrections' 'has_exceptions'], Missing Column in Database table : parameter_values
+Instance: amneal_dwi, Column: ['challenge_questions_answer' 'challenge_questions_id' 'created_by'
+ 'department' 'failed_additional_verification_attempts'
+ 'failed_challenge_question_attempts' 'failed_login_attempts'
+ 'is_system_user' 'locked_at' 'modified_by' 'password'
+ 'password_updated_at' 'state' 'type' 'username'], Missing Column in Database table : users
+Instance: amneal_dwi, Column: ['color_code'], Missing Column in Database table : checklists
+Instance: amneal_dwi, Column: ['created_by' 'is_master' 'modified_by'], Missing Column in Database table : organisations
+Instance: amneal_dwi, Column: ['is_bulk' 'user_groups_id'], Missing Column in Database table : parameter_verifications
+Instance: amneal_dwi, Column: ['negative_due_date_tolerance_duration'
+ 'negative_due_date_tolerance_interval'
+ 'negative_start_date_tolerance_duration'
+ 'negative_start_date_tolerance_interval'
+ 'positive_due_date_tolerance_duration'
+ 'positive_due_date_tolerance_interval'
+ 'positive_start_date_tolerance_duration'
+ 'positive_start_date_tolerance_interval'], Missing Column in Database table : task_recurrences
+Instance: amneal_dwi, Column: ['id' 'user_groups_id'], Missing Column in Database table : task_execution_user_mapping
+Instance: amneal_dwi, Column: ['code'], Missing Column in Database table : job_annotations
+Instance: amneal_dwi, Column: ['is_bulk' 'user_groups_id'], Missing Column in Database table : temp_parameter_verifications
+Instance: amneal_dwi, Column: ['has_bulk_verification' 'has_executor_lock' 'has_interlocks'
+ 'is_solo_task'], Missing Column in Database table : tasks
