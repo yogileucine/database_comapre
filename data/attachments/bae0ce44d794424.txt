@@ -1,3 +1,0 @@
-Instance: dwi_junaid, Column: ['corrected_at' 'corrected_by' 'duration' 'ended_by'], Missing Column in Database table : task_executions
-Instance: dwi_junaid, Column: ['expected_end_date' 'expected_start_date' 'is_scheduled' 'schedulers_id'], Missing Column in Database table : jobs
-Instance: dwi_junaid, Column: ['parameters'], Missing Column in Database table : job_audits
